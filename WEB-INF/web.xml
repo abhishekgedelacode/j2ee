@@ -22,6 +22,15 @@
         <servlet-name>AddNumbers</servlet-name>
         <servlet-class>SummationServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Search</servlet-name>
+        <servlet-class>SendRedirectionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/MySearcher</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>AddNumbers</servlet-name>
